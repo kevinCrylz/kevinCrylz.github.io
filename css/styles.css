@@ -14,7 +14,7 @@ html, body {
 }
 
 #main-border-1 {
-    height: 800px;
+    height: calc(100vh - 120px);
     max-height: calc(100vh - 120px);
     width: 80%;
     position: relative;
@@ -24,7 +24,7 @@ html, body {
 }
 
 #main-border-2 {
-    height: 700px;
+    height: calc(100vh - 230px);
     max-height: calc(100vh - 230px);
     width: 90%;
     position: relative;
