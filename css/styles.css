@@ -1,0 +1,128 @@
+html, body {
+    min-height: 100%;
+    width: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../assets/background.jpg");
+    /*<a href="https://www.freepik.com/vectors/marble-background">Marble background vector created by Vectorium - www.freepik.com</a>*/
+    text-align: center;
+}
+
+#main-border-1 {
+    height: 800px;
+    max-height: calc(100vh - 120px);
+    width: 80%;
+    position: relative;
+    top: 50px;
+    margin: auto;
+    border: solid goldenrod 10px;
+}
+
+#main-border-2 {
+    height: 700px;
+    max-height: calc(100vh - 230px);
+    width: 90%;
+    position: relative;
+    top: 50px;
+    margin: auto;
+    border: solid goldenrod 5px;
+    text-align: center;
+}
+
+#title {
+    color: goldenrod;
+    text-decoration: underline;
+    font-size: 100px;
+}
+
+#desc {
+    color: goldenrod;
+    font-weight: bolder;
+    font-size: 30px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 30px;
+}
+
+#next {
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    left: calc(50% - 50px);
+    bottom: 0px;
+    color: goldenrod;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    animation-name: below;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes below {
+    from {bottom: 5px;}
+    to {bottom: 0px;}
+}
+
+#info {
+    height: 500px;
+    background-color: rgb(219,200,190);
+    text-align: left;
+}
+
+.subtitle {
+    margin: 0;
+    padding: 100px 0 50px;
+}
+
+.personal-image {
+    height: 300px;
+    border-radius: 50%;
+    float: left;
+    margin: 100px 100px 0 15%;
+}
+
+.red-text {
+    color: #A05050;
+}
+
+.gold-text {
+    color: goldenrod;
+}
+
+a {
+    text-decoration: none;
+}
+
+#project {
+    height: 100vh;
+    min-height: 500px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .personal-image {
+        height: 300px;
+        border-radius: 50%;
+        display: block;
+        margin: auto;
+        float: none;
+    }
+
+    #info {
+        padding: 50px;
+        text-align: center;
+    }
+
+    .subtitle {
+        padding: 20px 0;
+    }
+}
