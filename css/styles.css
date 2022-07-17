@@ -126,6 +126,30 @@ a {
 }
 
 @media only screen and (max-width: 800px) {
+    #main-border-1 {
+        max-height: calc(100vh - 170px);
+    }
+    
+    #main-border-2 {
+        max-height: calc(100vh - 280px);
+    }
+
+    h1 {
+        font-size: 80px;
+    }
+    
+    h2 {
+        font-size: 60px;
+    }
+    
+    h3 {
+        font-size: 40px;
+    }
+    
+    h4 {
+        font-size: 20px;
+    }
+    
     .personal-image {
         height: 300px;
         border-radius: 50%;
@@ -134,12 +158,8 @@ a {
         float: none;
     }
 
-    h1 {
-        font-size: 90px;
-    }
-
     #info {
-        height: 700px;
+        height: 600px;
         padding: 50px;
         text-align: center;
     }
