@@ -7,7 +7,6 @@ html, body {
 
 .main {
     height: 100vh;
-    min-height: 1000px;
     width: 100%;
     background-image: url("../assets/background.jpg");
     /*<a href="https://www.freepik.com/vectors/marble-background">Marble background vector created by Vectorium - www.freepik.com</a>*/
