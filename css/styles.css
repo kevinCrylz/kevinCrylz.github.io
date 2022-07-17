@@ -34,15 +34,30 @@ html, body {
     text-align: center;
 }
 
+h1 {
+    font-size: 120px;
+}
+
+h2 {
+    font-size: 80px;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
 #title {
     color: goldenrod;
     text-decoration: underline;
-    font-size: 100px;
+    text-shadow: 4px 4px black;
 }
 
 #desc {
     color: goldenrod;
-    font-weight: bolder;
     font-size: 30px;
     position: absolute;
     margin-left: auto;
@@ -50,6 +65,7 @@ html, body {
     left: 0;
     right: 0;
     bottom: 30px;
+    text-shadow: 2px 2px black;
 }
 
 #next {
@@ -61,6 +77,7 @@ html, body {
     color: goldenrod;
     font-size: 40px;
     font-family: sans-serif;
+    font-weight: bolder;
     text-align: center;
     animation-name: below;
     animation-duration: 1s;
@@ -117,8 +134,12 @@ a {
         float: none;
     }
 
+    h1 {
+        font-size: 90px;
+    }
+
     #info {
-        height: 550px;
+        height: 700px;
         padding: 50px;
         text-align: center;
     }
