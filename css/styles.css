@@ -86,10 +86,6 @@ h4 {
     animation-iteration-count: infinite;
 }
 
-a:hover {
-    color: gold;
-}
-
 @keyframes below {
     from {bottom: 5px;}
     to {bottom: 0px;}
@@ -119,6 +115,10 @@ a:hover {
 
 .gold-text {
     color: goldenrod;
+}
+
+.gold-text:hover {
+    color: gold;
 }
 
 a {
