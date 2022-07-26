@@ -7,7 +7,9 @@ html, body {
 
 .main {
     height: 100vh;
+    min-height: 600px;
     width: 100%;
+    position: relative;
     background-image: url("../assets/background.jpg");
     /*<a href="https://www.freepik.com/vectors/marble-background">Marble background vector created by Vectorium - www.freepik.com</a>*/
     text-align: center;
@@ -15,7 +17,7 @@ html, body {
 
 #main-border-1 {
     height: 800px;
-    min-height: 400px;
+    min-height: 450px;
     max-height: calc(100vh - 120px);
     width: 80%;
     position: relative;
@@ -26,7 +28,7 @@ html, body {
 
 #main-border-2 {
     height: 700px;
-    min-height: 300px;
+    min-height: 350px;
     max-height: calc(100vh - 230px);
     width: 90%;
     position: relative;
