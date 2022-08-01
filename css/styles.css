@@ -97,6 +97,7 @@ h4 {
     padding: 0 0 100px;
     background-color: rgb(219,200,190);
     text-align: left;
+    display: flex;
 }
 
 .subtitle {
@@ -107,7 +108,6 @@ h4 {
 .personal-image {
     height: 350px;
     border-radius: 50%;
-    float: left;
     margin: 80px 100px 0 15%;
 }
 
@@ -204,6 +204,7 @@ a {
     }
     
     .personal-image {
+        height: 250px;
         display: block;
         margin: auto;
         float: none;
@@ -212,6 +213,7 @@ a {
     #info {
         padding: 50px 0 100px;
         text-align: center;
+        display: block;
     }
 
     .subtitle {
